@@ -1,0 +1,62 @@
+main{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.longWord {
+    font-size: 11px;
+    
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(5, 50px);
+    border: 1px solid black;
+}
+
+button {
+    border: .5px solid black;
+    margin: 2px;
+    text-align: center;
+    line-height: 3;
+    background-color: rgb(78, 68, 68);
+    color: white;
+    box-shadow: 2px 2px 2px grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+} 
+
+
+
+.container .orange{
+    background-color: orange;
+    color:white;
+}
+
+h3 {
+    border: 1px solid rgba(0, 0, 0, 0.453);
+    width: 500px;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.733);
+    color:white;
+    padding: 0px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 35px;
+
+    
+
+}
+
+.container .larger {
+    
+    grid-column: span 2;
+
+}
+
+.container .number {
+    background-color: darkgrey;
+    color: white;
+}

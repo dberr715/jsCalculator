@@ -6,6 +6,13 @@ main{
     font-size: 11px;
     
 }
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
 
 .container {
     width: 500px;
@@ -14,11 +21,12 @@ main{
     grid-template-columns: repeat(10, 50px);
     grid-template-rows: repeat(5, 50px);
     border: 1px solid black;
+
 }
 
-button {
+input {
     border: .5px solid black;
-    margin: 2px;
+    margin: .5px;
     text-align: center;
     line-height: 3;
     background-color: rgb(78, 68, 68);
@@ -34,7 +42,7 @@ button {
     color:white;
 }
 
-h3 {
+#displayBox {
     border: 1px solid rgba(0, 0, 0, 0.453);
     width: 500px;
     height: 75px;
@@ -46,8 +54,11 @@ h3 {
     align-items: flex-end;
     font-size: 35px;
 
-    
+}
 
+body{
+    background-color: rgb(144, 174, 174);
+    text-align: center;
 }
 
 .container .larger {

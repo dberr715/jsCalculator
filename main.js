@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function (){
     console.log ("Everything is loaded!!!");
 
@@ -18,31 +20,37 @@ document.addEventListener('DOMContentLoaded', function (){
     const dot = document.getElementById('dot');
     const clear = document.getElementById('clear');
     const displayArea = document.getElementById('displayArea');
-
-   
-
-    
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    const numberButtons = document.querySelectorAll('.number');
+    const operationButtons = document.querySelectorAll('.operations');
 });
+
+const pushNumber = function (itemPressed) {
+
+itemPressed.addEventListener('click', alert(itemPressed))
+}
+
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
